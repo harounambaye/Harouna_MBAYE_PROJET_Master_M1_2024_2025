@@ -1,0 +1,14 @@
+===============================FAIT PAR HAROUNA MBAYE=====================================
+
+1. Mettre le dossier todo dans C:/xampp/htdocs/ et démarrer Apache/MySQL.
+
+2. Vérifier l’API : http://<IP_PC>/todo/ (ex: http://192.168.3.2/todo/).
+
+3. Installer l’APK sur le téléphone (même réseau Wi-Fi que le PC).
+
+4. Si besoin de changer l’IP → lancer avec :
+   flutter run --dart-define=API_BASE=http://192.168.3.2/todo/
+
+5. Les configs sont dans services/api_service.dart et core/constants.dart
+
+==========================================================================================
